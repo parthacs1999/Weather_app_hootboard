@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@300&display=swap");
+/* Whole container */
+.form__container {
+  width: 250px;
+  height: fit-content;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+/* Main Header */
+.form__header {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #49b3dd;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+/* Divider */
+.form__bar {
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+}
+/* Input elememt */
+.form__body {
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__input {
+  padding: 10px 30px 10px 30px;
+  border: 1px solid gainsboro;
+  text-align: center;
+}
+.form__input::placeholder {
+  color: rgb(185, 184, 184);
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+/* or divider */
+.form__separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(199, 198, 198);
+  margin: 0 15px 0 15px;
+}
+.form__separator::before,
+.form__separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid gainsboro;
+}
+
+.form__separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.form__separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.form__button {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__button button{
+    padding: 5px 45px 5px 45px;
+    color: white;
+    background-color: #49b3dd;
+    border:1px solid #49b3dd;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}

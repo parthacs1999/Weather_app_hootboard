@@ -8,7 +8,11 @@ const Form = () => {
     const[lat,setLat]=useState();
     const[lon,setLon]=useState();
     const displayDataHandler = () => {
-        setGoToDataPage(true);
+        setGoToDataPage(!goToDataPage);
+    }
+    const getBackHandler=()=>{
+        setGoToDataPage(!goToDataPage);
+        setCityName('');
     }
 
     useEffect(() => {
@@ -35,7 +39,7 @@ const Form = () => {
     }
     return (
         <div className={classes.form__container}>
-            {goToDataPage ? <WeatherData data={getData} /> :
+            {goToDataPage ? <WeatherData data={getData} toggle={getBackHandler}/> :
                 <div>
                     <div className={classes.form__header}>
                         <p>Weather App</p>

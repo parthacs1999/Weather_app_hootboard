@@ -4,11 +4,11 @@ import { IoArrowBackSharp } from 'react-icons/io5';
 import { IoLocationOutline } from 'react-icons/io5';
 import { BsThermometerSun } from 'react-icons/bs';
 import { WiHumidity } from 'react-icons/wi';
-const WeatherData = ({data}) => {
+const WeatherData = ({data,toggle}) => {
   return (
     <div className={classes.data__Container}>
       <div className={classes.data__header}>
-        <p><IoArrowBackSharp className={classes.back__icon} />{' '}Weather App</p>
+        <p><IoArrowBackSharp className={classes.back__icon} onClick={()=>toggle()}/>{' '}Weather App</p>
       </div>
       <div className={classes.data__bar}></div>
       <div className={classes.display__container}>

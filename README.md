@@ -4,8 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Live demo: https://inquisitive-cobbler-c653f1.netlify.app/
 In the project directory, you can run:
+
 ### `npm install`
+
 Install all the required dependencies to run the application.
 
 ### `npm start`

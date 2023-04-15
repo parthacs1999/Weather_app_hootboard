@@ -69,14 +69,17 @@
     justify-content: space-around;
     align-items: center;
 }
+/* footer data */
 .footer__data{
     font-size: 10px;
 }
+/* footer-->feels__like */
 .display__feelslike{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* footer-->humidity */
 .display__humidity{
     display: flex;
     justify-content: center;

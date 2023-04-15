@@ -1,7 +1,9 @@
+/* preprossing */
 *{
   margin: 0;
   padding: 0;
 }
+/*body */
 body{
   height: 100vh;
   background-color: #49b3dd;

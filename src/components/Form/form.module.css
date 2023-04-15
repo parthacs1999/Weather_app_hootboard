@@ -13,7 +13,6 @@
   font-size: 14px;
   font-weight: 600;
   color: #49b3dd;
-  width: 100%;
   height: 30px;
   display: flex;
   align-items: center;
@@ -21,12 +20,10 @@
 }
 /* Divider */
 .form__bar {
-  width: 100%;
   border-bottom: 1px solid gainsboro;
 }
 /* Input elememt */
 .form__body {
-  width: 100%;
   height: 50px;
   margin-top: 5px;
   display: flex;

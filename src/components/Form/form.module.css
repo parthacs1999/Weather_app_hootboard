@@ -31,7 +31,9 @@
   align-items: center;
 }
 .form__input {
-  padding: 10px 30px 10px 30px;
+  /* padding: 10px 30px 10px 30px; */
+  height: 30px;
+  width: 210px;
   border: 1px solid gainsboro;
   text-align: center;
   font-family:"Poppins", sans-serif;

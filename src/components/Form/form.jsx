@@ -57,11 +57,11 @@ const Form = () => {
                     {/* divider */}
                     <div className={classes.form__bar}></div>
                     {/* Form container */}
-                    <div className={classes.form__body}>
-                        <form>
+                    <form className={classes.form__body}>
+                        {/* <form> */}
                             <input type="text" placeholder='Enter city name' className={classes.form__input} onChange={(e) => { setCityName(e.target.value) }} value={cityName} />
-                        </form>
-                    </div>
+                        {/* </form> */}
+                    </form>
                     {/* Error handling logic */}
                     <div className={cityName !== '' ? '' : classes.hide}>
                         {getData === null ? (
